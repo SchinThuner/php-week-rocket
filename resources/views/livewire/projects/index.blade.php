@@ -1,10 +1,9 @@
 <div>
-    componente livewire projects.index
-    <!-- @foreach ($this->$projects as $project)
+    @foreach ($this->projects as $project)
         <li>
-            <a href="{{ route('projects.show', $project) }}">
+            <a href="{{route('projects.show', $project)}}">
                 {{ $project->id }}. {{ $project->title }}
             </a>
         </li>
-    @endforeach -->
+    @endforeach
 </div>
