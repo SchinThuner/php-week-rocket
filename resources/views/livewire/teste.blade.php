@@ -1,9 +1,10 @@
 <div>
+<h1>Meu componente livewire</h1>
     <!-- Fazendo busca usando livewire -->
     <input wire:model.live="search" />
     <br>
     <ul>
-        @foreach ($this->users as $user)
+        @foreach ($users as $user)
             <li>{{ $user->name }}</li>
         @endforeach
     </ul>    
