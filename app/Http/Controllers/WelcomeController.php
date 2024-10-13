@@ -36,7 +36,8 @@ class WelcomeController extends Controller
         // return self::class;
         // return WelcomeController::class;
         // passando usuário para login
-        Auth::login($user);
+        // Auth::login($user);
+        // Auth::logout();
         return view('teste.teste');
     }
     /**
