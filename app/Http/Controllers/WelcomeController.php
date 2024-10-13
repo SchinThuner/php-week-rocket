@@ -38,7 +38,8 @@ class WelcomeController extends Controller
         // passando usuário para login
         // Auth::login($user);
         // Auth::logout();
-        return view('teste.teste');
+        // return view('teste.teste');
+        return view('welcome');
     }
     /**
      * Caso de uso de método e não uma classe invoke
