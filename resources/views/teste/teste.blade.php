@@ -6,6 +6,11 @@
   <title>TESTE</title>
 </head>
 <body>
-  teste
+  @auth
+    Você está autenticado!
+  @endauth
+  @foreach (range(1, 20) as $key)
+    <li>{{ $key }}</li>
+  @endforeach
 </body>
 </html>
